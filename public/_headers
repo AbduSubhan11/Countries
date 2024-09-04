@@ -1,0 +1,8 @@
+/components/*
+  Content-Type: application/javascript
+
+/context/*
+  Content-Type: application/javascript
+
+/hooks/*
+  Content-Type: application/javascript
