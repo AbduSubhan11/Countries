@@ -20,7 +20,7 @@ function SearchBar({ clickHandler}) {
       </svg>
       <input
         onChange={(e) => {
-          clickHandler(e.target.value);
+          clickHandler(e.target.value.toLowerCase());
         }}
         type="text"
         className={`outline-none bg-transparent flex-1 placeholder-opacity-60 ${isDark? "text-white" : "text-black placeholder-black" } `}
